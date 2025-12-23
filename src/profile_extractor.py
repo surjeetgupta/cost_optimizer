@@ -29,4 +29,4 @@ Input:
     with open("data/project_profile.json", "w", encoding="utf-8") as f:
         json.dump(profile, f, indent=2)
 
-    print("✅ project_profile.json generated")
+    print(" project_profile.json generated")
