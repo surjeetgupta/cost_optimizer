@@ -1,0 +1,19 @@
+I want to build an AI-powered cloud cost optimization tool.
+
+The system should analyze cloud usage and monthly billing data
+and provide cost optimization recommendations for cloud resources.
+
+Tech stack:
+Frontend: React
+Backend: Python
+Database: PostgreSQL
+Hosting: AWS
+Monitoring: CloudWatch
+
+Non-functional requirements:
+Scalability
+High availability
+Cost efficiency
+Security
+
+My monthly cloud budget is 3000 INR.
