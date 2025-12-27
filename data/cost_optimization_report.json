@@ -1,0 +1,59 @@
+{
+  "analysis": {
+    "total_monthly_cost": 4163,
+    "budget": 3000,
+    "budget_variance": 1163,
+    "service_costs": {
+      "Compute": 263,
+      "Database": 2100,
+      "Storage": 750,
+      "Networking": 800,
+      "Monitoring": 250
+    },
+    "is_over_budget": true
+  },
+  "recommendations": {
+    "recommendations": [
+      {
+        "service": "Compute",
+        "recommendation": "Consider using spot instances or reserved instances to save up to 80% on EC2 instances in AWS, Azure or GCP.",
+        "savings_potential": 526.4
+      },
+      {
+        "service": "Compute",
+        "recommendation": "Use autoscaling and right-size instances based on workload to avoid overprovisioning in all cloud providers.",
+        "savings_potential": 300
+      },
+      {
+        "service": "Database",
+        "recommendation": "Optimize database queries and indexing to reduce the number of read and write operations.",
+        "savings_potential": 300
+      },
+      {
+        "service": "Database",
+        "recommendation": "Consider using open-source databases like MySQL, PostgreSQL or MongoDB for free-tier or lower-cost options.",
+        "savings_potential": 1200
+      },
+      {
+        "service": "Storage",
+        "recommendation": "Use tiered storage or archive infrequent data to reduce storage costs.",
+        "savings_potential": 250
+      },
+      {
+        "service": "Networking",
+        "recommendation": "Use Elastic IPs or static IPs only when necessary to save on data transfer costs.",
+        "savings_potential": 200
+      },
+      {
+        "service": "Monitoring",
+        "recommendation": "Consider using open-source monitoring tools like Prometheus, Grafana or Nagios for free or lower-cost alternatives.",
+        "savings_potential": 100
+      },
+      {
+        "service": "Compute, Database, Storage, Networking",
+        "recommendation": "Implement infrastructure as code using Terraform, CloudFormation or Azure Resource Manager to ensure efficient resource utilization and avoid manual errors.",
+        "savings_potential": 1000
+      }
+    ]
+  }
+}
