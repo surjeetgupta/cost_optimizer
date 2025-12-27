@@ -1,0 +1,72 @@
+[
+  {
+    "month": "2023-03",
+    "service": "Compute",
+    "resource_id": "c1234567890abcdef0",
+    "region": "Asia Pacific (Mumbai)",
+    "usage_quantity": 100,
+    "unit": "Hours",
+    "cost_inr": 150,
+    "desc": "f1-micro instance"
+  },
+  {
+    "month": "2023-03",
+    "service": "Database",
+    "resource_id": "db-1234567890",
+    "region": "Europe (London)",
+    "usage_quantity": 500,
+    "unit": "GB-month",
+    "cost_inr": 1200,
+    "desc": "Single DB-F1-M instance"
+  },
+  {
+    "month": "2023-03",
+    "service": "Storage",
+    "resource_id": "s1234567890",
+    "region": "North America (Iowa)",
+    "usage_quantity": 250,
+    "unit": "GB",
+    "cost_inr": 750,
+    "desc": "Standard HDD"
+  },
+  {
+    "month": "2023-03",
+    "service": "Networking",
+    "resource_id": "n1234567890",
+    "region": "Asia Pacific (Singapore)",
+    "usage_quantity": 1000,
+    "unit": "GB",
+    "cost_inr": 800,
+    "desc": "Data transfer in"
+  },
+  {
+    "month": "2023-03",
+    "service": "Monitoring",
+    "resource_id": "m1234567890",
+    "region": "South America (S\u00e3o Paulo)",
+    "usage_quantity": 50,
+    "unit": "Millions of events",
+    "cost_inr": 250,
+    "desc": "Logs Viewer"
+  },
+  {
+    "month": "2023-03",
+    "service": "Compute",
+    "resource_id": "c234567890abcdef1",
+    "region": "Europe (Paris)",
+    "usage_quantity": 75,
+    "unit": "Hours",
+    "cost_inr": 113,
+    "desc": "g1-small instance"
+  },
+  {
+    "month": "2023-03",
+    "service": "Database",
+    "resource_id": "db-234567890",
+    "region": "Asia Pacific (Seoul)",
+    "usage_quantity": 300,
+    "unit": "GB-month",
+    "cost_inr": 900,
+    "desc": "Memcache"
+  }
+]
