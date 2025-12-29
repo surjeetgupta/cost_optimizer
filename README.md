@@ -20,6 +20,8 @@ An AI-driven system that analyzes cloud usage and billing data to provide action
 **LLM:** Hugging Face (Mistral-7B-Instruct)  
 ---
 
+### Tools used:- ChatGPT.
+
 ### Required Accounts
 - **Hugging Face Account**
   - Create an account at https://huggingface.co
@@ -43,3 +45,4 @@ pip install -r requirements.txt
 
 ### The access token should be placed in .env file with the same variable name as provided below
 HUGGINGFACEHUB_API_TOKEN=YOUR_TOKEN
+
